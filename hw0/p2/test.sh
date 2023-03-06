@@ -1,4 +1,4 @@
-for i in {0..10};
+for i in {0..5};
   do
     if test -f $i.in;
     then
@@ -6,7 +6,7 @@ for i in {0..10};
     fi
 done
 
-for i in {0..10} ;
+for i in {0..5} ;
   do 
     if test -f $i.in;
     then
